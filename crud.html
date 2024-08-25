@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/crud.css">
+</head>
+<body>
+    <div class="crud">
+        <div class="head">
+    
+            <img src="uploads/DXKF4577.JPG" alt="">
+            <marquee>
+                <font color="black" size="50">Furniture Accesories</font></marquee>
+        </div>
+
+
+        <div class="inputs">
+        <input onkeyup="gettotal()" type="text" id="title" placeholder="الاصناف">
+        <div class="price">
+           
+            <input onkeyup="gettotal()" type="number" id="price" placeholder="السعر">
+            <input onkeyup="gettotal()" type="number" id="taxs" placeholder="الكميه">
+          
+        </div>
+        
+        <button id="hassan">create</button>
+    </div>
+    
+    <!-- <div id="deleteall">
+
+    </div> -->
+<table>
+    <tr>
+        <th>الرقم</th>
+        <th>الصنف</th>
+        <th>الكميه</th>
+        <th>السعر</th>
+        <th>update</th>
+        <th>delet</th>
+    </tr>
+    <tbody id="yass">
+<tr>
+    <td>1</td>
+    <td>samsung</td>
+    <td>2000</td>
+    <td>100</td>
+    <td><button id="update">update</button></td>
+    <td><button id="delet">delet</button></td>
+</tr>
+    </tbody>
+</table>
+    </div>
+    </div>
+    <script src="js/crud.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 2px;
+}
+.gallery{
+    display: flex;
+}
+.photos img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid red;
+}
+.photos img:hover{
+    cursor: pointer;
+    border: 5px solid green;
+}
+.main img{
+    width: 800px;
+    height: 800px;
+    border: 5px solid red;
+}
+.main img:hover{
+    cursor: pointer;
+    border: 5px solid green;
+}

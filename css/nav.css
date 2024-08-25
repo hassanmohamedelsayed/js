@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 150px;
+    height: 100vh;
+    background-color: brown;
+    color: aliceblue;
+}
+.container p{
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.container p:hover,#open:hover,#close:hover{
+    cursor: pointer;
+    background-color: #000;
+}
+button{
+    color: wheat;
+    background-color: brown;
+    border: none;
+    border-radius: 4px;
+}
+#close{
+    position: absolute;
+    left: 160px;
+}
+.hide{
+    display: none;
+}
